@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <title>CounterApp</title>
+</head>
+<body>
+    <div class="container my-5 col-8 card shadow">
+      <div id="counter-body">
+        <h1>Counter App</h1>
+        <div id="display"></div>
+        <button  id="on">ON</button>
+        <button  id="off">OFF</button><br>
+        <button onclick="decrement()">-</button>
+        <button onclick="increment()">+</button><br>
+        <button type="button" id="reset" onclick="callReset()">RESET</button>
+      </div>
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+</html>
