@@ -1,7 +1,8 @@
 # CounterApp
 <p> simple counter project</p>
- ## Features
- -Increaments, 
- -decrements and 
+ <h4Features</h4>
+ 
+  Increaments,</br> 
+ -decrements and </br>
  -resets a value </p>
 <p> Functionality implemented with javascript </p>
